@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+body {
+/*background-image:url("https://source.unsplash.com/category/abstract/1600x900");*/
+background-image:url("https://picsum.photos/g/1600/900/?random");
+background-repeat:no-repeat;
+height:100%;
+width:auto;
+ background-size: cover;
+ background-attachment: fixed;
+ animation: filling 4s linear forwards;
+}
+
+h1{
+font-size:2.5em;
+text-align:center;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+ 
+}
+.title{
+	margin:10px;
+	color:#fff;font-size:6.5em;    font-family: Helvetica;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+.quote{
+/*color:#ffffff;*/
+text-align:center;
+vertical-align:middle;
+padding:0% 15% 0 15%;
+}
+ 
+#quoteblock{
+font-family: 'PT Serif', serif;
+font-size:2em;
+}
+ 
+#author{
+font-family: 'PT Serif', serif;
+text-align:center;
+}
+
+@keyframes filling {
+  from{
+    background-position: center 25%;
+  }
+  to {
+    background-position: center 50%;
+  }
+}
+
+.container-text {
+  /*background-image:  url(https://source.unsplash.com/category/nature/1600x900);*/
+  background-image:  url(https://source.unsplash.com/category/nature/1600x900);
+   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: filling 3s ease forwards;
+  color:  #FFFFFF;
+  font-size: 13.5em;
+  font-family: 'Bungee', cursive;
+  text-align:center;
+
+}
+/*search form*/
+ #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
