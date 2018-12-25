@@ -50,5 +50,31 @@ $( document ).ready(function() {
     });
   }, false);
 }, false);
+
+setTimeout("UpdateTime()", 1000) 
+
 });
+
+
+
+
+function UpdateTime(){
+    
+        // var today = new Date();
+        // var hour = today.getHours();
+        // var mins = today.getMinutes();
+        // var secs = today.getSeconds();
+
+        // if (secs <=9){
+        //     secs = "0" + secs
+        // }
+
+        // var TotalTime = hour + ":" + mins + ":" + secs ;
+        var time = new Date().toLocaleTimeString();
+        $('#time').html(time);
+
+        setTimeout("UpdateTime()", 1000) 
+
+}
+
 

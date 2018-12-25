@@ -29,6 +29,6 @@
 "newtab":"src/override.html"
 },
 "permissions": ["storage","tabs","activeTab", "https://source.unsplash.com/","https://picsum.photos/","http://quotes.rest/", "http://*/*","https://*/*","http://4.bp.blogspot.com/-hmmgeAynFzY/VDdocIRN2GI/AAAAAAAAHzQ/0Sa9xa6sWu8/s1600/pC6xENv.gif "],
-"content_security_policy": "script-src 'self' https://code.jquery.com/jquery-2.2.4.min.js; object-src 'self'"
+"content_security_policy": "script-src 'self' 'unsafe-eval' https://code.jquery.com/jquery-2.2.4.min.js; object-src 'self'"
 }
 

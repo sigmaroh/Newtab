@@ -29,10 +29,9 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 		// 		}
 		// 	}
 		// alert('hellow world');
-		console.log('Output of new tab extension');
+		//console.log('Output of new tab extension');
 		// var imgs = document.getElementsByTagName("img");for(var i=0, l=imgs.length; i<l; i++) {imgs[i].src = "http://4.bp.blogspot.com/-hmmgeAynFzY/VDdocIRN2GI/AAAAAAAAHzQ/0Sa9xa6sWu8/s1600/pC6xENv.gif "; }
 		});
 
 // });
-
 
